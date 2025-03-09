@@ -1,0 +1,40 @@
+body {
+    font-family: 'Quicksand', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    /* 设置背景图片 */
+    background-image: url('bj.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #ffffff;
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+/* 添加头像样式 */
+.avatar {
+    width: 150px; /* 可根据需要调整宽度 */
+    height: 150px; /* 可根据需要调整高度 */
+    object-fit: cover; /* 保持图片比例并覆盖容器 */
+    border-radius: 50%; /* 使头像变成圆形 */
+    margin-bottom: 20px;
+}
+
+footer {
+    margin-top: 50px;
+    color: #797878;
+}
